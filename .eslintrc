@@ -1,8 +1,8 @@
 {
-  "extends": [
-    "prettier-standard",
-    "plugin:react/recommended",
-    "next",
-    "next/core-web-vitals"
-  ]
+  "extends": ["next", "next/core-web-vitals"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }
