@@ -2,6 +2,7 @@
   "name": "next-social-media-dashboard",
   "version": "0.1.0",
   "private": true,
+  "author": "Bruno Chirelli <bruno@chirelli.com.br>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
