@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
     "emotion": "^11.0.0",
@@ -16,11 +17,13 @@
     "theme-ui": "^0.10.0"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^11.0.0",
     "@types/react": "^17.0.11",
+    "cross-env": "^7.0.3",
     "eslint": "7.29.0",
     "eslint-config-next": "11.0.0",
+    "next-compose-plugins": "^2.2.1",
     "prettier-config-standard": "^4.0.0",
-    "prettier-standard": "^16.4.1",
     "stylelint": "^13.13.1",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-order": "^4.1.0",
